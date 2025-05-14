@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	stages{
-		stage("Pull Code"){
+		stage("Pull Code from Github"){
 			steps{
 				echo "pulling code from GitHub ......"
 			}
